@@ -1,0 +1,19 @@
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+.venv/
+
+# The private operational repository is a separate checkout.
+/opts/
+
+# Source material and generated data never belong in this repository.
+*.parquet
+*.wav
+*.flac
+*.mp3
+*.mp4
+MANIFEST.json
+/data/
+/prepared/
+/output/
