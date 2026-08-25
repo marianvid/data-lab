@@ -3,9 +3,7 @@
 > **Personal use.** This repository is not a product, a hosted service or a
 > complete distribution of Data-Lab. It has no support commitment.
 
-Data-Lab prepares data for my local projects. Most of it is private because its
-workflows may contain confidential source material, source inventories and
-operational details.
+Data-Lab prepares audio data for my personal AI-Lab evaluations.
 
 ## Why this repository is public
 
@@ -18,17 +16,6 @@ publishing the downloaded corpus or any personal data.
 The current method takes the official FLEURS `ro_ro` test split, selects rows at
 equal intervals over the complete table, and uses FFmpeg to create mono, 16 kHz,
 signed 16-bit PCM WAV files. See [the audio preparation method](audio/README.md).
-
-## What is private
-
-The rest of Data-Lab is kept in a separate private repository named
-`data-lab-opts`, checked out locally as `opts/`. It includes the broader data
-service, operational configuration, private source handling and workflows that
-may reveal confidential data. `opts/` is not a submodule and is deliberately
-excluded from this repository.
-
-No audio, parquet files, generated manifests, downloaded corpora, databases or
-credentials belong in this public repository.
 
 ## Licence
 

@@ -4,7 +4,7 @@ __pycache__/
 *.py[cod]
 .venv/
 
-# The private operational repository is a separate checkout.
+# Local-only nested checkout.
 /opts/
 
 # Source material and generated data never belong in this repository.
